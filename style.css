@@ -1,0 +1,87 @@
+/* إعدادات عامّة */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212; /* لون خلفية داكن */
+  color: #f1f1f1; /* نص أبيض */
+}
+
+/* ترويسة الموقع */
+header {
+  background-color: #1a1a1a; /* خلفية داكنة للترويسة */
+  color: #ff6347; /* اللون البرتقالي الزاهي */
+  padding: 20px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(255, 99, 71, 0.7); /* تأثير الظل بلون البرتقالي */
+}
+
+/* زرّ الأداة */
+.tool-box {
+  background-color: #2a2d34; /* لون خلفية صندوق الأداة */
+  border-left: 5px solid #ff6347; /* حافة برتقالية */
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+.tool-box:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(255, 99, 71, 0.5);
+}
+
+/* عنوان الأداة */
+.tool-box h2 {
+  margin: 0;
+  color: #ff6347; /* البرتقالي الزاهي */
+}
+
+/* وصف الأداة */
+.tool-box p {
+  color: #cfcfcf; /* لون النص داخل الصندوق */
+  margin-top: 10px;
+}
+
+/* تنسيق للأزرار */
+button {
+  background-color: #ff6347; /* لون الزر البرتقالي */
+  color: #fff;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e55347; /* زر داكن عند التمرير عليه */
+}
+
+/* تنسيق الحقول داخل النموذج */
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #2a2d34; /* خلفية الحقول */
+  color: #f1f1f1; /* نص الحقول */
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #ff6347; /* حدود حمراء عند التحديد */
+}
+
+/* خلفية للمحتوى الرئيسي */
+main {
+  padding: 20px;
+  background-color: #1f2226; /* خلفية داكنة للمحتوى */
+  margin: 30px;
+  border-radius: 10px;
+}
