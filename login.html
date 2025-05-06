@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Cyber Tools</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .login-container {
+      max-width: 400px;
+      margin: 100px auto;
+      background-color: #1a1d23;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #00bfff;
+    }
+
+    .login-container h2 {
+      text-align: center;
+      color: #00bfff;
+      margin-bottom: 20px;
+    }
+
+    .login-container input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+      background-color: #2a2d34;
+      color: #f1f1f1;
+    }
+
+    .login-container button {
+      width: 100%;
+      padding: 12px;
+      background-color: #00bfff;
+      border: none;
+      border-radius: 5px;
+      color: #0f1115;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .login-container button:hover {
+      background-color: #009acd;
+    }
+
+    .login-container p {
+      color: #ccc;
+      font-size: 14px;
+      text-align: center;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-container">
+    <h2>Login</h2>
+    <form action="#">
+      <input type="text" placeholder="Username" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+    <p>Don't have an account? <a href="#">Sign up</a></p>
+  </div>
+
+</body>
+</html>
